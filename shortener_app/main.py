@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.responses import RedirectResponse
 import validators
 
-from .db import create_new_db_url_object, get_active_url_by_key, get_url_by_secret_key, insert_new_url_record, update_visit_count
+from .db import get_url_by_secret_key, insert_new_url_record, update_visit_count
 from . import schema, models
 from .database import SessionLocal, engine
 from sqlalchemy.orm import Session
