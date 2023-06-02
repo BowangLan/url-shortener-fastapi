@@ -1,6 +1,6 @@
 # URL Shortener FastAPI
 
-A simple URL shortener implemented using Python and FastAPI. 
+A simple URL shortener implemented using FastAPI and SQLAlchemy. 
 
 Based on a Real Python tutorial: https://realpython.com/build-a-python-url-shortener-with-fastapi/
 
