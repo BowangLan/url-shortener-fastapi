@@ -1,4 +1,4 @@
-# url-shortener-fastapi
+# URL Shortener FastAPI
 
 A simple URL shortener implemented using Python and FastAPI. 
 
